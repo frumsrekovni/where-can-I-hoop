@@ -15,22 +15,18 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbe6c7",endColorstr="#fbe6c7",GradientType=1);
 }
 header{
-    background-color: red;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
 }
-header h1{
-    background-color: aquamarine;
-    text-align: center;
-    font-size: 60px;
-}
 #official-measurements{
-    background-color: aliceblue;
     display: flex;
-    left: 0;
+    
 }
 #official-measurements div{
-    padding: 20px;
+    width: 150px;
+    
+    background-color: red;
 }
 #official-measurements div a{
     text-decoration: none;
@@ -46,4 +42,13 @@ header h1{
 }
 .hoop-post img{
     width: 100%;
+}
+
+@media (max-width: 600px){
+    header{
+        justify-content: space-evenly;
+        
+        
+        
+    }
 }
