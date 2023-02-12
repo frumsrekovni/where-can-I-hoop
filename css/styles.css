@@ -32,7 +32,9 @@ header{
     text-decoration: none;
     color: black;
 }
-
+.hoop-posts{
+    display: flex;
+}
 .hoop-post{
     background-color: rgb(255, 240, 217);
     width: 420px;
@@ -43,6 +45,8 @@ header{
 .hoop-post img{
     width: 100%;
 }
+
+
 
 @media (max-width: 600px){
     header{
